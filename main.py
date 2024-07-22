@@ -6,9 +6,6 @@ from PIL import Image
 
 from Tabs import home, predict
 
-#load model
-model_file = pickle.load(open("model_dt.pkl", "rb"))
-
 Tabs = {
     "Home": home,
     "Prediction": predict
